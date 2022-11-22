@@ -1,8 +1,7 @@
 #pragma once
 
 #ifndef FIRSTDLL_API
-#define FIRSTDLL_API extern "C" __declspec(dllimport)
+#define FIRSTDLL_API extern "C" __declspec(dllimport)   
 #endif
 
 FIRSTDLL_API int MathDll();
-FIRSTDLL_API const double Pi;

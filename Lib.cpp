@@ -3,8 +3,6 @@
 #include "Lib.h"
 using namespace std;
 
-FIRSTDLL_API const double Pi = 3.1415;
-
 FIRSTDLL_API int MathDll() {
 	while (true) {
 		cout << "Enter example:" << endl;
